@@ -1,0 +1,21 @@
+*::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #e0d5c1;
+}
+
+*::-webkit-scrollbar-corner {
+    background-color: #e0d5c1;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: repeating-linear-gradient(45deg, #e0d5c1, #e0d5c1 20px, #E7BE0C 20px, #E05926 40px);
+}
+
+* {
+    scrollbar-color: #E05926 #e0d5c1;
+    scrollbar-width: auto;
+}

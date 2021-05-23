@@ -1,0 +1,38 @@
+li.nav-item {
+   cursor: pointer;
+}
+
+@media only screen {
+
+   #menu {
+      border-right: 0px;
+   }
+}
+
+@media only screen and (min-width : 576px) {
+
+   #menu {
+      border-right: 1px solid #1f1e1e;
+   }
+
+   #context {
+      height: 100vh;
+      min-height: 100vh;
+      overflow-y: auto;
+   }
+}
+
+.toy {
+   border: 1px solid white;
+   transition: border .3s;
+   cursor: pointer;
+}
+
+.toy:hover {
+   border: 1px solid #000000;
+   transition: border .3s;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #e3bb0b !important;
+}
